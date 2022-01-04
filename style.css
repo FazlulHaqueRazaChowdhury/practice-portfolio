@@ -81,6 +81,8 @@ h1 span {
 .title  {
     text-align: center;
     font-size: 2rem;
+    padding: 10px;
+    
 }
 .big {
     font-size: 2rem;
@@ -92,4 +94,15 @@ h1 span {
 .paragraph {
     padding: 50px;
     text-align: justify;
+}
+.paragraph1 {
+    float: right;
+    padding: 50px;
+    text-align: justify;
+}
+.paragraph h3 {
+    padding: 10px 0px;
+}
+h5 {
+    padding: 10px 0px;
 }
