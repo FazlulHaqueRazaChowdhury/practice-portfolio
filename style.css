@@ -1,0 +1,84 @@
+* {
+    font-family: 'Exo', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.flexing {
+    display: flex;
+}
+
+.top {
+    background-image: url(images/top-bg.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    color: white;
+}
+.mid {
+    background-image: url(images/mid-bg.jpeg);
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    color: white;
+}
+.half{
+    width: 50%;
+}
+.name { 
+    display: inline-block;
+    font-size: 2em;
+    margin: 50px 100px;
+    padding: 10px 30px;
+    border: 3px solid;
+    border-image: linear-gradient(purple,aqua);
+    border-image-slice: 1;
+    border-radius: 50px;
+    
+}
+ul{
+
+    margin-left: 50px;
+}
+
+ul li {
+    margin-top: 70px;
+    list-style-type: none;
+}
+.link {
+
+    color: white;
+    text-decoration: none;
+    margin: 150px 10px;
+    padding: 10px;
+
+}
+.link:hover {
+    border-bottom:1px solid ;  
+    border-image: linear-gradient(purple,aqua);
+    border-image-slice: 9;
+    
+}
+
+
+
+.top-mid {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 150px;
+}
+.coloumn{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 span {
+    color: orange;
+    font-size: 6rem;
+    font-family: Waterfall;
+}
+.title  {
+    text-align: center;
+    font-size: 2rem;
+}
